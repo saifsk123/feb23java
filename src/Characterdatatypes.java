@@ -1,6 +1,6 @@
 public class Characterdatatypes {
     public static void main(String[] args) {
-        char s='e';
+        char s='f';
         System.out.println(s);
     }
 }
