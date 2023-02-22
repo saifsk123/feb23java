@@ -3,5 +3,6 @@ public class LoginPage {
     {
         String s1="naveen1";
         String s2="naveen3";
+
     }
 }
