@@ -12,5 +12,7 @@ public class LoginPage {
 
         String s9="nikhil";
         String s10="Syam";
+        String s11="nikhil1";
+        String s12="nikhil2";
     }
 }
