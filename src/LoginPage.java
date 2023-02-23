@@ -8,6 +8,7 @@ public class LoginPage {
         String s5="naveen4";
         String s6="naveen5";
         String s7="naveen5";
+        String s8="Saif"
 
     }
 }
