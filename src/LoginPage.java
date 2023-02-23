@@ -8,7 +8,9 @@ public class LoginPage {
         String s5="naveen4";
         String s6="naveen5";
         String s7="naveen5";
-        String s8="nikhil";
-        String s9="Syam";
+        String s8="Saif";
+
+        String s9="nikhil";
+        String s10="Syam";
     }
 }
