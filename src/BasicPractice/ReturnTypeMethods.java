@@ -1,3 +1,5 @@
+package BasicPractice;
+
 public class ReturnTypeMethods
 {
     //**without returning value***//

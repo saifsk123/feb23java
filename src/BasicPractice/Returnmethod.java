@@ -1,3 +1,5 @@
+package BasicPractice;
+
 public class Returnmethod
 {
     public int multiply()

@@ -1,3 +1,5 @@
+package BasicPractice;
+
 public class PublicAccesModifier
 {
     //****Basic Method declaration without parameters:AccessModifier returntype methodname();***

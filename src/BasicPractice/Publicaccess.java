@@ -1,3 +1,5 @@
+package BasicPractice;
+
 public class Publicaccess
 {
     public void main()
