@@ -1,0 +1,12 @@
+package Forloops;
+
+public class Even {
+    public static void main(String[] args) {
+        for (int r=1;r<=5;r++){
+            for (int s=1;s<(2*r+1);s++){
+                System.out.print("*");
+            }
+            System.out.println();
+        }
+    }
+}
