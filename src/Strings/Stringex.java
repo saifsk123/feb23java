@@ -12,7 +12,7 @@ public class Stringex {
         String s4="welcome";
         String s5="Welcome";
         because java uses the concept of string literal.suppose there are 5 reference variables,all refers to one object "Welcome".If one reference variable changes
-        the value of the object,it will be affected to all reference variables.That is why string objects are immutable*/
+        the value of the object,it will be affected to all reference variables.That is why string objects are immutable*//*
 
         //String methods
         String s1="Naveen,Nikhil,Syam";
@@ -79,7 +79,33 @@ public class Stringex {
                 count++;
             }
         }
-        System.out.println(count);
-    }
+        System.out.println(count);*/
+        //Find character position in a string
+        String s8="naveen";
+        int indexposition=s8.indexOf('e');
+        System.out.println(indexposition);
+        int indexposafterfirstindex=s8.indexOf('e',indexposition+1);
+        System.out.println(indexposafterfirstindex);
 
+        String s9="Vemuri Naveen kumar Vemuri";
+        String[] splits=s9.split(" ");
+        System.out.println(splits[1]);
+        System.out.println(s9.split(" ")[1]);
+        //replace
+        System.out.println(s9.replaceAll("Vemuri","1").trim());
+
+        //substring
+        String cardno="VemuriNaveenKumar";
+        int indexN=cardno.indexOf('N');
+        System.out.println(indexN);
+        int indexk=cardno.indexOf('K',indexN+1);
+        System.out.println(indexk);
+        System.out.println(cardno.substring(indexN, indexk));
+        /*String first3chars=cardno.substring(0,1);
+        String lastdigits=cardno.substring(3,cardno.length());
+        System.out.println(lastdigits);
+        System.out.println(first3chars);
+        System.out.println(cardno.contains("."));*/
+
+    }
 }
