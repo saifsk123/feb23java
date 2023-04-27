@@ -7,7 +7,7 @@ public class C extends  A,B{ //java dosenot support multiple inheritence due to 
 /*
 oops:
 Inheritence
-Polymorphism
+Polymorphism:Speak something(person):Method overloading and method overriding
 Abstraction
 interface
 Encapsulation
