@@ -1,12 +1,19 @@
 package Interface;
 
-public class B implements A {
+public class B implements BInterafce, BInterafce.NestedInterface {
+
     @Override
     public void add() {
-        System.out.println(a);
+
     }
-    public void sub()
-    {
-        System.out.println(30);
+
+    @Override
+    public void sub() {
+
+    }
+
+    @Override
+    public void mul() {
+
     }
 }
