@@ -19,6 +19,7 @@ public class ArrayListEx {
         obj.add("Nikhil");
         obj.add("Saif");
         obj.add("Hi");
+        obj.add("Hi");
         System.out.println(obj);
         System.out.println(obj.size());
         System.out.println(obj.get(0));
